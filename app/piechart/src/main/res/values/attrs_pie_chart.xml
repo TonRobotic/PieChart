@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="PieChart">
+        <attr name="borderPieSize" format="dimension" />
+        <attr name="scaleColor" format="color" />
+    </declare-styleable>
+</resources>
