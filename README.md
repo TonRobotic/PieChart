@@ -19,9 +19,6 @@ Step 2. Add the dependency
 	        implementation("com.github.TonRobotic:PieChart:1.0.1")
 	}
 
- 
-Exampleto use.
-
 Step 3. Add to XML
     ** borderPieSize is depend on layout_width , layout_height
 
