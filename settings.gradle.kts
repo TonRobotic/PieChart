@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "mPieChart"
 include(":app")
-include(":app:piechart")
+include(":piechartm")

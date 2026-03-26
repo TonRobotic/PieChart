@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.mt.piechart"
+    namespace = "com.mt.piechartm"
     compileSdk {
         version = release(36)
     }

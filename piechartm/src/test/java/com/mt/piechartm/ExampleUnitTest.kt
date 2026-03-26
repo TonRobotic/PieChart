@@ -1,4 +1,4 @@
-package com.mt.piechart
+package com.mt.piechartm
 
 import org.junit.Test
 

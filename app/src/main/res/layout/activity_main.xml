@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.mt.piechart.PieChart
+    <com.mt.piechartm.PieChart
         android:id="@+id/pieChart"
         android:layout_width="120dp"
         android:layout_height="120dp"
