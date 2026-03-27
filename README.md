@@ -1,5 +1,6 @@
 # PieChart
 Hello Android Devloper 
+<img width="250" height="600" alt="Screenshot 2569-03-26 at 12 24 29" src="https://github.com/user-attachments/assets/e9968663-c9ff-45b0-b625-01c276acc5b9" />
 
 How to get Library
 
@@ -91,8 +92,3 @@ Step 4. Add to Activity or fragment Class
 	        )
 	    }
 	}
-    
-<img width="569" height="1189" alt="Screenshot 2569-03-26 at 12 24 29" src="https://github.com/user-attachments/assets/e9968663-c9ff-45b0-b625-01c276acc5b9" />
-
-
-	
