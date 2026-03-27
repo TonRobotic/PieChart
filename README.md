@@ -20,7 +20,7 @@ Step 2. Add the dependency
 	}
 
 Step 3. Add to XML
-    ** borderPieSize is depend on layout_width , layout_height
+    ** borderPieSize depend on layout_width , layout_height
 
 	<com.mt.piechartm.PieChart
 		android:id="@+id/pieChart"
