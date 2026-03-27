@@ -136,10 +136,6 @@ class PieChart : View, ValueAnimator.AnimatorUpdateListener {
         } else {
             this.updateValue(100)
         }
-
-        this@PieChart.setOnClickListener {
-            Log.d("TAG", "pie click : ${it.tag}")
-        }
     }
 
     @SuppressLint("Recycle")
