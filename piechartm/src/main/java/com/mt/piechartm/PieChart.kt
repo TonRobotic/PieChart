@@ -60,6 +60,12 @@ class PieChart : View, ValueAnimator.AnimatorUpdateListener {
         super.onDraw(canvas)
         val radius = (this.width / 2) - (borderProgressBarSize / 2)
         var totalValue = 0f
+        val rectF = RectF(
+            this.width.toFloat() / 2 - radius,
+            this.height.toFloat() / 2 - radius,
+            this.width.toFloat() / 2 + radius,
+            this.height.toFloat() / 2 + radius
+        )
         for (it in this.pieDataList) {
             val paint = Paint()
             paint.color = it.color
@@ -73,12 +79,7 @@ class PieChart : View, ValueAnimator.AnimatorUpdateListener {
                 )
 
             canvas.drawArc(
-                RectF(
-                    this.width.toFloat() / 2 - radius,
-                    this.height.toFloat() / 2 - radius,
-                    this.width.toFloat() / 2 + radius,
-                    this.height.toFloat() / 2 + radius
-                ), startPoint + totalValue, valueProgress, false, paint
+               rectF, startPoint + totalValue, valueProgress, false, paint
             )
 
             totalValue += valueProgress
@@ -134,6 +135,10 @@ class PieChart : View, ValueAnimator.AnimatorUpdateListener {
             setPieWithAnimation(delay)
         } else {
             this.updateValue(100)
+        }
+
+        this@PieChart.setOnClickListener {
+            Log.d("TAG", "pie click : ${it.tag}")
         }
     }
 
